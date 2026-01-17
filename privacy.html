@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Legal & Information | CodeMaster Tools</title>
+    <meta name="description" content="Privacy Policy, Terms of Service, About Us, and Cookie Policy for CodeMaster Tools QR Generator">
+    <meta name="keywords" content="privacy policy, terms of service, about us, cookie policy, QR code generator legal">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://codemastertools.in/legal.html">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "CodeMaster Tools Legal Information",
+        "description": "Privacy Policy, Terms of Service, About Us, and Cookie Policy for CodeMaster Tools",
+        "url": "https://codemastertools.in/legal.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "CodeMaster Tools",
+            "url": "https://codemastertools.in"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --accent: #3b82f6;
+            --dark: #0f172a;
+            --darker: #020617;
+            --light: #f8fafc;
+            --gray: #334155;
+            --glass-bg: rgba(30, 41, 59, 0.7);
+            --glass-border: rgba(100, 116, 139, 0.3);
+            --error: #ef4444;
+            --success: #10b981;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--darker), var(--dark));
+            background-attachment: fixed;
+            color: var(--light);
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Glassmorphism Effect */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            position: relative;
+            z-index: 10;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .logo {
+            font-size: clamp(24px, 5vw, 28px);
+            font-weight: 800;
+            background: linear-gradient(to right, var(--accent), #60a5fa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            flex-shrink: 0;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo i {
+            margin-right: 10px;
+            font-size: clamp(26px, 5vw, 32px);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: clamp(15px, 3vw, 25px);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            font-weight: 600;
+            position: relative;
+            padding: 5px 0;
+            font-size: clamp(14px, 2vw, 16px);
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: var(--accent);
+        }
+        
+        nav a:hover::after {
+            width: 100%;
+        }
+        
+        /* Main Content */
+        .main-content {
+            padding: clamp(40px, 8vw, 60px) 0;
+            text-align: center;
+        }
+        
+        .tool-title {
+            font-size: clamp(32px, 6vw, 42px);
+            margin-bottom: 20px;
+            background: linear-gradient(to right, var(--light), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+        
+        .tool-description {
+            font-size: clamp(16px, 3vw, 18px);
+            color: #cbd5e1;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+        
+        /* Legal Pages Navigation */
+        .legal-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .legal-nav-btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: var(--light);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+        }
+        
+        .legal-nav-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .legal-nav-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+        
+        /* Content Cards */
+        .content-card {
+            padding: 40px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .content-section {
+            margin-bottom: 40px;
+        }
+        
+        .content-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: var(--accent);
+            border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+            padding-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .content-section h3 {
+            font-size: 22px;
+            margin: 25px 0 15px;
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+        
+        .content-section p {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        
+        .content-section ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .content-section li {
+            margin-bottom: 10px;
+            color: #cbd5e1;
+            line-height: 1.7;
+        }
+        
+        .content-section a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .content-section a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight-box {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .update-info {
+            font-size: 14px;
+            color: #94a3b8;
+            font-style: italic;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: clamp(40px, 6vw, 60px) 0 clamp(20px, 4vw, 30px);
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+            padding: 0 15px;
+            text-align: left;
+            justify-content: flex-start;
+            margin-left: 0;
+            margin-right: auto;
+        }
+        
+        .footer-column {
+            text-align: left;
+        }
+        
+        .footer-column h3 {
+            color: var(--accent);
+            margin-bottom: 20px;
+            font-size: 18px;
+            position: relative;
+            display: inline-block;
+            font-weight: 700;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+        
+        .footer-column:hover h3::after {
+            width: 100%;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .footer-column li {
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-column li:hover {
+            transform: translateX(5px);
+        }
+        
+        .footer-column a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 15px;
+            display: block;
+            position: relative;
+            padding-left: 0;
+        }
+        
+        .footer-column a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8;
+            font-size: 14px;
+            padding: 0 15px;
+        }
+        
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: linear-gradient(135deg, var(--accent), #3b82f6);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            z-index: 100;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .tool-title {
+                font-size: 28px;
+            }
+            
+            .tool-description {
+                font-size: 16px;
+            }
+            
+            .content-card {
+                padding: 25px;
+            }
+            
+            .content-section h2 {
+                font-size: 24px;
+            }
+            
+            .content-section h3 {
+                font-size: 20px;
+            }
+            
+            .legal-nav {
+                gap: 10px;
+            }
+            
+            .legal-nav-btn {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .tool-title {
+                font-size: 24px;
+            }
+            
+            .content-card {
+                padding: 20px;
+            }
+            
+            .legal-nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .legal-nav-btn {
+                width: 100%;
+                max-width: 250px;
+                justify-content: center;
+            }
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 0.5s ease forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Ad Container */
+        .ad-container {
+            width: 100%;
+            margin: 30px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Navigation -->
+        <header>
+            <a href="https://codemastertools.in/" class="logo">
+                <i class="fas fa-qrcode"></i>
+                <span>CodeMaster</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="https://codemastertools.in/">Home</a></li>
+                    <li><a href="https://codemastertools.in/qr-generator.html">QR Generator</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header> 
+        
+        
+https://codemastertools.in/qr-generator.html
+        
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 class="tool-title animate__animated animate__fadeInDown">Legal & Information</h1>
+            <p class="tool-description animate__animated animate__fadeInDown animate__delay-1s">
+                Important policies, terms, and information about CodeMaster Tools and our QR Code Generator.
+            </p>
+            
+            <!-- Legal Navigation -->
+            <div class="legal-nav animate__animated animate__fadeIn animate__delay-2s">
+                <button class="legal-nav-btn active" data-page="privacy">
+                    <i class="fas fa-shield-alt"></i> Privacy Policy
+                </button>
+                <button class="legal-nav-btn" data-page="terms">
+                    <i class="fas fa-file-contract"></i> Terms of Service
+                </button>
+                <button class="legal-nav-btn" data-page="about">
+                    <i class="fas fa-info-circle"></i> About Us
+                </button>
+                <button class="legal-nav-btn" data-page="cookies">
+                    <i class="fas fa-cookie-bite"></i> Cookie Policy
+                </button>
+            </div>
+            
+
+
+            
+            <!-- Privacy Policy Content -->
+            <div id="privacyContent" class="content-card glass-card fade-in">
+                <div class="content-section">
+                    <h2>Privacy Policy</h2>
+                    <p>At CodeMaster Tools, we value your privacy and are committed to protecting it. This Privacy Policy explains how we handle information when you use our website and tools.</p>
+                    
+                    <h3>Information We Collect</h3>
+                    <ul>
+                        <li>We do not collect personal information such as name, email address, phone number, or payment details</li>
+                        <li>QR code generation happens entirely in the user's browser</li>
+                        <li>We do not store, process, or save QR content on our servers</li>
+                    </ul>
+                    
+                    <h3>Cookies & Advertising</h3>
+                    <ul>
+                        <li>We may use cookies to improve website performance and user experience</li>
+                        <li>Third-party vendors, including Google, may use cookies (such as the DoubleClick cookie) to display ads based on users' visits to this and other websites</li>
+                        <li>Users can opt out of personalized advertising by visiting <a href="https://adssettings.google.com" target="_blank">Google Ads Settings</a></li>
+                    </ul>
+                    
+                    <h3>Third-Party Links</h3>
+                    <p>Our website may contain links or advertisements from third-party websites. We are not responsible for the privacy policies or content of external websites.</p>
+                    
+                    <h3>Data Security</h3>
+                    <ul>
+                        <li>Our website uses HTTPS encryption</li>
+                        <li>Since we do not store user data, there is minimal risk of data exposure</li>
+                    </ul>
+                    
+                    <h3>Children's Information</h3>
+                    <p>CodeMaster Tools does not knowingly collect any personal information from children under the age of 13.</p>
+                    
+                    <h3>GDPR & CCPA Compliance</h3>
+                    <p>We comply with major global privacy regulations, including GDPR and CCPA.</p>
+                    
+                    <div class="highlight-box">
+                        <h4>Your Rights (GDPR)</h4>
+                        <p>Users have the right to:</p>
+                        <ul>
+                            <li>Access their personal data (if any)</li>
+                            <li>Request correction or deletion of data</li>
+                            <li>Object to or restrict data processing</li>
+                        </ul>
+                        <p><strong>Note:</strong> Since we do not collect or store personal data, these requests generally do not apply.</p>
+                    </div>
+                    
+                    <div class="highlight-box">
+                        <h4>Your Rights (CCPA – California)</h4>
+                        <p>California users have the right to:</p>
+                        <ul>
+                            <li>Know what personal data is collected</li>
+                            <li>Request deletion of personal data</li>
+                            <li>Opt out of the sale of personal data</li>
+                        </ul>
+                        <p><strong>Note:</strong> We do not sell, collect, or share personal data.</p>
+                    </div>
+                    
+                    <p class="update-info"><strong>Last Updated:</strong> 2026</p>
+                </div>
+            </div>
+            
+            <!-- Terms of Service Content (Hidden by default) -->
+            <div id="termsContent" class="content-card glass-card" style="display: none;">
+                <div class="content-section">
+                    <h2>Terms of Service</h2>
+                    <p>By accessing or using CodeMaster Tools, you agree to the following terms.</p>
+                    
+                    <h3>Acceptable Use</h3>
+                    <ul>
+                        <li>This website may only be used for lawful and ethical purposes</li>
+                        <li>Users must not use the QR Generator for:
+                            <ul>
+                                <li>Illegal activities</li>
+                                <li>Fraud, phishing, or scams</li>
+                                <li>Malware, viruses, or misleading content</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h3>Free Service</h3>
+                    <ul>
+                        <li>All tools are provided free of charge</li>
+                        <li>There are no hidden fees, subscriptions, or automatic payments</li>
+                    </ul>
+                    
+                    <h3>User Responsibility</h3>
+                    <ul>
+                        <li>Users are solely responsible for how generated QR codes are used</li>
+                        <li>CodeMaster Tools is not liable for misuse or damages resulting from QR code usage</li>
+                    </ul>
+                    
+                    <h3>Service Availability</h3>
+                    <ul>
+                        <li>We may update, modify, or discontinue features at any time without notice</li>
+                        <li>We do not guarantee uninterrupted or error-free service</li>
+                    </ul>
+                    
+                    <h3>Disclaimer</h3>
+                    <ul>
+                        <li>Services are provided on an "as-is" and "as-available" basis</li>
+                        <li>No warranties are provided regarding accuracy or availability</li>
+                    </ul>
+                    
+                    <p class="update-info"><strong>Last Updated:</strong> 2026</p>
+                </div>
+            </div>
+            
+            <!-- About Us Content (Hidden by default) -->
+            <div id="aboutContent" class="content-card glass-card" style="display: none;">
+                <div class="content-section">
+                    <h2>About CodeMaster Tools</h2>
+                    <p>CodeMaster Tools is a free online platform offering fast, simple, and reliable web tools. Our QR Generator allows users to create QR codes instantly without registration and without storing any data on servers.</p>
+                    
+                    <div class="highlight-box">
+                        <h3>Why Choose Us?</h3>
+                        <ul>
+                            <li><strong>✔ No data storage</strong> - Your QR code content never leaves your browser</li>
+                            <li><strong>✔ No hidden charges</strong> - Completely free with no subscriptions</li>
+                            <li><strong>✔ Free and easy to use</strong> - No registration or login required</li>
+                            <li><strong>✔ Secure browsing</strong> - HTTPS encryption for all connections</li>
+                            <li><strong>✔ Privacy-focused</strong> - We don't track or collect personal information</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Our Mission</h3>
+                    <p>We believe in transparency, user trust, and responsible technology use. Our goal is to provide useful tools that respect user privacy while delivering professional results.</p>
+                    
+                    
+                    <p class="update-info"><strong>Established:</strong> 2026</p>
+                </div>
+            </div>
+            
+            <!-- Cookie Policy Content (Hidden by default) -->
+            <div id="cookiesContent" class="content-card glass-card" style="display: none;">
+                <div class="content-section">
+                    <h2>Cookie Policy</h2>
+                    <p>CodeMaster Tools uses cookies to ensure proper website functionality and to support advertising services.</p>
+                    
+                    <h3>What Are Cookies?</h3>
+                    <p>Cookies are small text files stored on your device to help websites function properly and improve user experience.</p>
+                    
+                    <h3>How We Use Cookies</h3>
+                    <ul>
+                        <li>Basic functionality and performance</li>
+                        <li>Advertising and analytics via third-party providers (e.g., Google AdSense)</li>
+                    </ul>
+                    
+                    <h3>Third-Party Cookies</h3>
+                    <p>Third-party vendors, including Google, may use cookies to show ads based on your browsing behavior. You can manage or disable cookies through your browser settings.</p>
+                    
+                    <div class="highlight-box">
+                        <h4>Cookie Consent Text (Short)</h4>
+                        <p>This website uses cookies to improve user experience and display relevant ads. By continuing to use this site, you agree to our Privacy Policy and Cookie Policy.</p>
+                    </div>
+                    
+                    <div class="highlight-box">
+                        <h4>Cookie Consent (Expanded)</h4>
+                        <p>We use cookies and similar technologies to enhance site performance and support advertising. Third-party vendors, including Google, may use cookies to display personalized or non-personalized ads. You may control cookie preferences through your browser settings.</p>
+                    </div>
+                    
+                    <h3>Managing Cookies</h3>
+                    <p>Most web browsers allow you to control cookies through their settings. You can usually find these settings in the "Options" or "Preferences" menu of your browser. Here are links to managing cookies in popular browsers:</p>
+                    <ul>
+                        <li><a href="https://support.google.com/chrome/answer/95647" target="_blank">Google Chrome</a></li>
+                        <li><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Mozilla Firefox</a></li>
+                        <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">Safari</a></li>
+                        <li><a href="https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd" target="_blank">Microsoft Edge</a></li>
+                    </ul>
+                    
+                    <p class="update-info"><strong>Last Updated:</strong> 2026</p>
+                </div>
+            </div>
+            
+
+
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://codemastertools.in/qr-generator.html">QR Generator</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#privacy" class="page-link" data-page="privacy">Privacy Policy</a></li>
+                            <li><a href="#terms" class="page-link" data-page="terms">Terms of Service</a></li>
+                            <li><a href="#about" class="page-link" data-page="about">About Us</a></li>
+                            <li><a href="#cookies" class="page-link" data-page="cookies">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2026 CodeMaster Tools. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        // Page navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const navButtons = document.querySelectorAll('.legal-nav-btn');
+            const contentDivs = document.querySelectorAll('.content-card');
+            const pageLinks = document.querySelectorAll('.page-link');
+            const backToTopBtn = document.getElementById('backToTop');
+            
+            // Function to show specific content and update active button
+            function showContent(pageId) {
+                // Hide all content divs
+                contentDivs.forEach(div => {
+                    div.style.display = 'none';
+                });
+                
+                // Remove active class from all buttons
+                navButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Show selected content
+                const selectedContent = document.getElementById(pageId + 'Content');
+                if (selectedContent) {
+                    selectedContent.style.display = 'block';
+                    selectedContent.classList.add('fade-in');
+                    
+                    // Remove fade-in class after animation completes
+                    setTimeout(() => {
+                        selectedContent.classList.remove('fade-in');
+                    }, 500);
+                }
+                
+                // Set active button
+                const activeButton = document.querySelector(`.legal-nav-btn[data-page="${pageId}"]`);
+                if (activeButton) {
+                    activeButton.classList.add('active');
+                }
+                
+                // Update URL hash without scrolling
+                history.replaceState(null, null, `#${pageId}`);
+            }
+            
+            // Add click event to navigation buttons
+            navButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const pageId = this.getAttribute('data-page');
+                    showContent(pageId);
+                });
+            });
+            
+            // Add click event to footer links
+            pageLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const pageId = this.getAttribute('data-page');
+                    showContent(pageId);
+                    
+                    // Scroll to content
+                    document.querySelector('.main-content').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Check URL hash on page load
+            const hash = window.location.hash.substring(1);
+            const validPages = ['privacy', 'terms', 'about', 'cookies'];
+            
+            if (validPages.includes(hash)) {
+                showContent(hash);
+            } else {
+                // Default to privacy policy
+                showContent('privacy');
+            }
+            
+            // Back to top button functionality
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.add('show');
+                } else {
+                    backToTopBtn.classList.remove('show');
+                }
+            });
+            
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Ad script (placeholder)
+            const adContainers = document.querySelectorAll('.ad-container div');
+            adContainers.forEach(container => {
+                // This is where you would add your actual ad script
+                // For now, we'll just show placeholder text
+                if (container.innerHTML === 'Ad Space') {
+                    container.innerHTML = '<script>/* Your ad script here */<\/script>';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
